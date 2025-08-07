@@ -15,4 +15,48 @@ h1, h2, h3, p {
 a {
   color: inherit;
 }
+.playlist {
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.playlist h2 {
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.spotify-embed-container {
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  background-color: #1a1a1a;
+}
+.spotify-embed-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+}
+.tip-card {
+  background-color: #1a1a2e;
+  border-radius: 16px;
+  padding: 1rem;
+  margin: 1rem 0;
+  color: #fff;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.tip-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px; /* more rounded corners */
+  margin-bottom: 0.8rem;
+  object-fit: cover;
+  max-height: 200px;
+}
+.tip-card img {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
 

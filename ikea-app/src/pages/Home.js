@@ -33,34 +33,38 @@ function Home() {
       <h1>Sleep better with IKEA</h1>
 
       {/*  Music Section */}
-      <section className="playlist">
-        <h2>Calming Playlist</h2>
-        <iframe
-          src="https://open.spotify.com/embed/playlist/37i9dQZF1DWXe9gFZP0gtP?utm_source=generator"
-          width="100%"
-          height="152"
-          frameBorder="0"
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-          title="Sleep playlist"
-        ></iframe>
-      </section>
+    <section className="playlist">
+  <h2>Calming Playlist</h2>
+  <div className="spotify-embed-container">
+    <iframe
+      src="https://open.spotify.com/embed/playlist/37i9dQZF1DWZeKCadgRdKQ?utm_source=generator&theme=0"
+      width="100%"
+      height="180"
+      frameBorder="0"
+      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+      loading="lazy"
+      title="Sleep playlist"
+    ></iframe>
+  </div>
+</section>
+
 
       {/* 💡 Tips Section */}
       <section className="sleep-tips">
         <h2>Tips for a better night’s sleep</h2>
-        <div className="tips-container">
-          {tips.map((tip, index) => (
-            <div className="tip-card" key={index}>
-              <img src={tip.image} alt={tip.title} />
-              <h3>{tip.title}</h3>
-              <p>{tip.description}</p>
-              <a href={tip.link} target="_blank" rel="noopener noreferrer">
-                View Product →
-              </a>
-            </div>
-          ))}
-        </div>
+       <div className="tips-container">
+  {sleepTips.map((tip, index) => (
+    <div className="tip-card" key={index}>
+      <img src={tip.image} alt={tip.title} />
+      <h3>{tip.title}</h3>
+      <p>{tip.description}</p>
+      <a href={tip.link} target="_blank" rel="noopener noreferrer">
+        View Product →
+      </a>
+    </div>
+  ))}
+</div>
+
       </section>
 
       <BottomNav />
