@@ -1,0 +1,88 @@
+[
+  {
+    "id": "matrand-foam-queen",
+    "name": "MATRAND Memory Foam Mattress, Queen",
+    "category": "Mattress",
+    "price": 379,
+    "rating": 4.6,
+    "image": "https://www.ikea.com/images/13/40/1340e78be6d5468fa3f9a32de65b3e09.jpg",
+    "ikeaUrl": "https://www.ikea.com/us/en/p/matrand-memory-foam-mattress-firm-white-20272303/",
+    "shortDesc": "Pressure‑relieving memory foam with a firm feel.",
+    "specs": {
+      "size": "Queen 60x80 in",
+      "thickness": "8\"",
+      "cover": "Removable, machine washable"
+    }
+  },
+  {
+    "id": "vale-vag-queen",
+    "name": "VALEVÅG Pocket Spring Mattress, Queen",
+    "category": "Mattress",
+    "price": 499,
+    "rating": 4.5,
+    "image": "https://www.ikea.com/images/2d/5a/2d5a3a7a1f7f4e9e9e5b7f4baf2b0cc6.jpg",
+    "ikeaUrl": "https://www.ikea.com/us/en/p/valevag-pocket-spring-mattress-medium-firm-dark-beige-00450646/",
+    "shortDesc": "Responsive pocket springs for balanced support.",
+    "specs": {
+      "size": "Queen 60x80 in",
+      "thickness": "10\"",
+      "warranty": "10-year limited warranty"
+    }
+  },
+  {
+    "id": "malm-bed-queen",
+    "name": "MALM High Bed Frame, Queen",
+    "category": "Bed",
+    "price": 249,
+    "rating": 4.4,
+    "image": "https://www.ikea.com/images/1a/2b/1a2b47d1e2fe4b9b9b9f97c8c1a5d8a0.jpg",
+    "ikeaUrl": "https://www.ikea.com/us/en/p/malm-bed-frame-high-white-luroey-s29009475/",
+    "shortDesc": "Clean lines and a timeless look.",
+    "specs": {
+      "materials": "Particleboard, fiberboard, foil",
+      "slats": "LURÖY slatted base included"
+    }
+  },
+  {
+    "id": "hemnes-bed-queen",
+    "name": "HEMNES Bed Frame, Queen",
+    "category": "Bed",
+    "price": 299,
+    "rating": 4.6,
+    "image": "https://www.ikea.com/images/0d/1a/0d1a9a91f6e342b2a617f8e0d6840482.jpg",
+    "ikeaUrl": "https://www.ikea.com/us/en/p/hemnes-bed-frame-white-stain-luroey-s29009469/",
+    "shortDesc": "Solid wood with classic details.",
+    "specs": {
+      "materials": "Solid pine, stain, clear acrylic lacquer",
+      "style": "Traditional"
+    }
+  },
+  {
+    "id": "fridans-blackout",
+    "name": "FRIDANS Block-out Roller Blind",
+    "category": "Curtains & Blinds",
+    "price": 34.99,
+    "rating": 4.2,
+    "image": "https://www.ikea.com/images/38/22/3822e248ec3c4fe7a2ffcd60f45f8efc.jpg",
+    "ikeaUrl": "https://www.ikea.com/us/en/p/fridans-block-out-roller-blind-gray-40472771/",
+    "shortDesc": "Blackout fabric to keep light out for better sleep.",
+    "specs": {
+      "sizes": "Multiple widths available",
+      "install": "Wall or ceiling mounting"
+    }
+  },
+  {
+    "id": "korgmott-blackout",
+    "name": "KORGMOTT Room-darkening Curtains, 1 pair",
+    "category": "Curtains & Blinds",
+    "price": 39.99,
+    "rating": 4.4,
+    "image": "https://www.ikea.com/images/90/1b/901b0b69bfe2456e9a3d8fabc2820292.jpg",
+    "ikeaUrl": "https://www.ikea.com/us/en/p/korgmott-room-darkening-curtains-1-pair-dark-gray-50512164/",
+    "shortDesc": "Room‑darkening fabric creates a calm atmosphere.",
+    "specs": {
+      "length": "98\"",
+      "care": "Machine washable"
+    }
+  }
+]
