@@ -7,7 +7,7 @@ function BottomNav() {
 
   return (
     <nav className="bottom-nav">
-      <Link to="/" className={location.pathname === "/" ? "active" : ""}>
+      <Link to="/home" className={location.pathname === "/home" ? "active" : ""}>
         <FaHome size={22} />
         <span>Home</span>
       </Link>

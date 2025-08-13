@@ -53,7 +53,7 @@ loading="lazy"
 <div className="tips-container">
 {sleepTips.map((tip, index) => (
 <div className="tip-card" key={index}>
-<h3>{tip.title}</h3> {/* Title above the image */}
+<h3>{tip.title}</h3> 
 <img src={tip.image} alt={tip.title} />
 <p>{tip.description}</p>
 <a href={tip.link} target="_blank" rel="noopener noreferrer">
