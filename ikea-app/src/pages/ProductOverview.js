@@ -17,7 +17,7 @@ export default function ProductOverview() {
       try {
         setLoading(true);
         const data = await fetchIKEAProducts();
-        setAll(data.products);
+        setAll(data);
       } catch (e) {
         setError(String(e));
       } finally {
