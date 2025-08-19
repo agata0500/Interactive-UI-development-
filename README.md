@@ -35,6 +35,8 @@
 - **Detailed product pages** with specifications
 - **Direct links to IKEA website**
 
+ ## Vercel link 
+ https://interactive-ui-development-sjtp.vercel.app/ 
 
 ## Getting Started
 
