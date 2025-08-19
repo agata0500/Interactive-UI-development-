@@ -6,10 +6,7 @@ export default function Introduction() {
   const navigate = useNavigate();
 
   
-  useEffect(() => {
-    const done = localStorage.getItem("onboarded") === "1";
-    if (done) navigate("/home", { replace: true });
-  }, [navigate]);
+  // Removed auto-redirect so Introduction always shows at '/'
 
   const handleNext = () => {
     localStorage.setItem("onboarded", "1"); 
